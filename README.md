@@ -1,5 +1,5 @@
 # Artificial-Intelligence-Problem-Solving
-The goal of this work is to understand how to model problems, to solve and implement the search algorithms
+The goal of this work is to understand how to model problems, to solve and implement the search algorithms.
 
 Course given by: Gauthier PICARD, Professor. PhD. HDR at the Ecole des Mines de Saint-étienne.
 
