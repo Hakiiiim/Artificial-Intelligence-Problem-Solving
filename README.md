@@ -8,6 +8,20 @@ Here is his statement of the problem: https://www.emse.fr/~picard/cours/ai/searc
 The source files were written by Pr. Gauthier PICARD, then completed by us following the exercices presented in the previous link.
 The three following problems were modelised and solved by me and my colleague Younes Gueddari.
 
+The files are to be found in the src folder of the Java Project. 
+
+_Core_ contains the mother classes (Problem, Node and Search) and the Solvers (AbstractTreeSearch and the one we use next AbstractGraphSearch).
+
+_Solver_ contains the search algorithms ready to use : Depthfirst and Breadthfirst for a graph and a tree search problem (graph in our case).
+
+_Simple_ contains a simple graph and tree example explained in the link above.
+
+_exo5_ corresponds to the first problem : Farmer's problem.
+
+_exo6_ corresponds to the second problem : Cannibal's problem.
+
+_exo7_ corresponds to the third problem : Two cans' problem.
+
 ## 1st Problem: The Farmer's Problem
 The farmer wants to get his goat, wolf and cabbage to the other side of the river. His boat isn't very big and it can only carry him and either his goat, his wolf or his cabbage. Now…..if he leaves the goat alone with the cabbage, the goat will gobble up the cabbage. If he leaves the wolf alone with the goat, the wolf will gobble up the goat. When the farmer is present, the goat and cabbage are safe from being gobbled up by their predators.
 
