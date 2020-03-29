@@ -16,11 +16,11 @@ _Solver_ contains the search algorithms ready to use : Depthfirst and Breadthfir
 
 _Simple_ contains a simple graph and tree example explained in the link above.
 
-_exo5_ corresponds to the first problem : Farmer's problem.
+_exo5_ corresponds to the first problem : The farmer's problem.
 
-_exo6_ corresponds to the second problem : Cannibal's problem.
+_exo6_ corresponds to the second problem : The cannibal's problem.
 
-_exo7_ corresponds to the third problem : Two cans' problem.
+_exo7_ corresponds to the third problem : The two cans' problem.
 
 ## 1st Problem: The Farmer's Problem
 The farmer wants to get his goat, wolf and cabbage to the other side of the river. His boat isn't very big and it can only carry him and either his goat, his wolf or his cabbage. Now…..if he leaves the goat alone with the cabbage, the goat will gobble up the cabbage. If he leaves the wolf alone with the goat, the wolf will gobble up the goat. When the farmer is present, the goat and cabbage are safe from being gobbled up by their predators.
@@ -31,3 +31,5 @@ How does the farmer manage to get everything safely to the other side of the riv
 * Actions: 4 possible actions _"Farmer moves alone"_, _"Farmer moves goat"_, _"Farmer moves cabbage"_ and _"Farmer moves wolf"_. Every action will return a state with the negation of the sequence's elements which items has been moved.
 * Goal state: (true,true,true,true).
 * Path cost: unit cost, all actions are considered of a cost equal to 1.
+
+## 2d Problem: The Cannibal's Problem
