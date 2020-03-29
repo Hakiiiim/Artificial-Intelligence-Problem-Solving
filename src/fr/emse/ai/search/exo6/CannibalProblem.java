@@ -45,6 +45,10 @@ public class CannibalProblem implements Problem {
             		actions.add("Move one missionary");
             		actions.add("Move one missionary and one cannibal");
                 }
+            } else {
+                if (missionaries >= 1) {
+            		actions.add("Move one missionary");
+                }
             }
         	if (missionaries >= 2) {
         		actions.add("Move two missionaries");
@@ -61,6 +65,10 @@ public class CannibalProblem implements Problem {
         		if ((3-missionaries) >= 1) {
             		actions.add("Move one missionary");
             		actions.add("Move one missionary and one cannibal");
+                }
+            } else {
+                if ((3-missionaries) >= 1) {
+            		actions.add("Move one missionary");
                 }
             }
         	if ((3-missionaries) >= 2) {
