@@ -33,3 +33,11 @@ How does the farmer manage to get everything safely to the other side of the riv
 * Path cost: unit cost, all actions are considered of a cost equal to 1.
 
 ## 2d Problem: The Cannibal's Problem
+On one bank of a river are three missionaries and three cannibals. There is one boat available that can hold up to two people and that they would like to use to cross the river. If the cannibals ever outnumber the missionaries on either of the river’s banks, the missionaries will get eaten.
+
+How can the boat be used to safely carry all the missionaries and cannibals across the river?
+
+* States: a state consists of an ordered sequence of two numbers and boolean variable (cannibals,missionaries,boat) respesenting respectively the number of cannibals and missionaries at the initial side of the river and the state of the boat (_true_ for the initial side). Thus, the start state is (3,3,true). States have an additional boolean attribute _interdit_ which is false by default, and is set to true if the state is forbidden (number of cannibals > number of missionaries).
+* Actions: 5 possible actions _"Move one cannibal"_, _"Move one missionary"_, _"Move two cannibals"_, _"Move two missionaries"_ and _"Move one missionary and one cannibal"_. Every action will update the number of cannibals and missionaries on the intial side of the river and negate the value of boat.
+* Goal state: (0,0,false).
+* Path cost: unit cost, all actions are considered of a cost equal to 1.
