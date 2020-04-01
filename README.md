@@ -41,3 +41,19 @@ How can the boat be used to safely carry all the missionaries and cannibals acro
 * Actions: 5 possible actions _"Move one cannibal"_, _"Move one missionary"_, _"Move two cannibals"_, _"Move two missionaries"_ and _"Move one missionary and one cannibal"_. Every action will update the number of cannibals and missionaries on the intial side of the river and negate the value of boat.
 * Goal state: (0,0,false).
 * Path cost: unit cost, all actions are considered of a cost equal to 1.
+
+## 3rd Problem: The Two Cans' Problem
+You have 2 cans A and B, each containing a quantity of liquid (initial situation). You can do the following as many times as you wish, and in the order you want:
+
+-> Empty a container to the river,
+
+-> Transfer the liquid from a canister in the other to empty the first or second fill.
+
+-> How to move from an initial situation at a given final position?
+
+For example, you can test your program on the following cases: Can A has a capacity of 15, and can B has a capacity of 5, Initial situation: A contains 12 and B contains 3, Final situation: A contains 0 and B contains 5.
+
+* States: a state consists of two numbers representing the respective volumes of the two cans, the initial state is then (I_a,I_b) which are the initial volumes in the two cans (12 and 3 in the example)
+* Actions: 4 possible actions _"empty A"_, _"empty B"_, _"fill B with A"_ and _"fill A with B"_. Every action will update the volumes of the two cans.
+* Goal state: (Fa,Fb), (0 and 5 in the example, notice that the final state is not always possible)
+* Path cost: unit cost, all actions are considered of a cost equal to 1.
